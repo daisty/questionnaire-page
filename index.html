@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/table.js"></script>
+</head>
+
+<body ng-app="App">
+<div class="wrap">
+    <div class="figure figure-survey">
+        <div class="pic-icon survey-icon"></div>
+        <div class="details-wrapper">
+            <div class="detail-title">
+                <span>问卷调查</span>
+            </div>
+            <div class="details-info">丰富题型，强大逻辑</div>
+            <div class="details-info">问卷密码，红包抽奖</div>
+        </div>
+        <div class="line-solid"></div>
+        <a href="#/test" class="btn-create">创建</a>
+    </div>
+    <div class="figure figure-vote">
+            <div class="pic-icon vote-icon"></div>
+            <div class="details-wrapper">
+                <div class="detail-title">
+                    <span>在线投票</span>
+                </div>
+                <div class="details-info">图文视频，选项随机</div>
+                <div class="details-info">实时排行，微信投票</div>
+            </div>
+            <div class="line-solid"></div>
+            <a href="#/test" class="btn-create">创建</a>
+    </div>
+    <div ng-view></div>
+</div>
+</body>
+</html>
