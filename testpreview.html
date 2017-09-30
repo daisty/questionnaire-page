@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+    <link rel="stylesheet" href="css/survey-global.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/test.css">
+    <link rel="stylesheet" href="css/test2.css">
+    <link rel="stylesheet" href="css/preview.css">
+    <script src="js/question.js"></script>
+    <script src="js/test.js"></script>
+    <script src="js/preview.js"></script>
+</head>
+<body>
+<div class="preview-wrap">
+    <div class="survey-title1">
+        <div class="title-content1 edit-area1" contenteditable="true" tabindex="1">问卷标题</div>
+    </div>
+    <div class="survey-desc1">
+        <div class="position-relative1" style="width:100%">
+            <div class="desc-content1 edit-area1" contenteditable="true">欢迎参加调查！答卷数据仅用于统计分析，请放心填写。题目选项无对错之分，按照实际情况选择即可。感谢您的帮助！</div>
+            <div class="error-tips1"></div>
+        </div>
+    </div>
+    <div id="question-box1" class="ui-sortable1">
+
+    </div>
+    <!--问卷末端-->
+    <div id="survey-tail1">
+        <ul>
+            <!--<li><div id="page-tail">页码：1/1</div></li>-->
+            <li style="height: 40px;">
+                <div id="survey-op1" class="after-clear">
+
+                    <div class="bce-ui-button1 btn-lg1 bce-skin-primary-button1 op-next1 vm" onclick="submitAnswer()">提交</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
